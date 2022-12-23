@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dttectonic
+Specification-Vendor: djs
+Specification-Version: 1
+Implementation-Title: DynamicTreesTectonic
+Implementation-Version: 1.1.0
+Implementation-Vendor: djs
+Implementation-Timestamp: 2022-12-23T17:22:17-0500
+
