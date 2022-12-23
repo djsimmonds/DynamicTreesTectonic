@@ -1,0 +1,213 @@
+[23Dec2022 17:27:56.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, sillybodaddy, --version, 1.18.2, --gameDir, /home/danisimmonds/.local/share/multimc/instances/1.18.2 testing/.minecraft, --assetsDir, /home/danisimmonds/.local/share/multimc/assets, --assetIndex, 1.18, --uuid, f921ace9526449758d42a2bf6c9819db, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 40.1.84, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --width, 854, --height, 480]
+[23Dec2022 17:27:56.037] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Private Build
+[23Dec2022 17:27:56.106] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/danisimmonds/.local/share/multimc/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2348!/ Service=ModLauncher Env=CLIENT
+[23Dec2022 17:27:56.256] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/danisimmonds/.local/share/multimc/libraries/net/minecraftforge/fmlcore/1.18.2-40.1.84/fmlcore-1.18.2-40.1.84.jar is missing mods.toml file
+[23Dec2022 17:27:56.257] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/danisimmonds/.local/share/multimc/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.1.84/javafmllanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[23Dec2022 17:27:56.258] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/danisimmonds/.local/share/multimc/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.1.84/lowcodelanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[23Dec2022 17:27:56.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/danisimmonds/.local/share/multimc/libraries/net/minecraftforge/mclanguage/1.18.2-40.1.84/mclanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[23Dec2022 17:27:56.329] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Dec2022 17:27:57.016] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.18.2, --gameDir, /home/danisimmonds/.local/share/multimc/instances/1.18.2 testing/.minecraft, --assetsDir, /home/danisimmonds/.local/share/multimc/assets, --uuid, f921ace9526449758d42a2bf6c9819db, --username, sillybodaddy, --assetIndex, 1.18, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[23Dec2022 17:28:01.448] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/danisimmonds/.local/share/multimc/libraries/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar%2356!/assets/.mcassetsroot' uses unexpected schema
+[23Dec2022 17:28:01.449] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/danisimmonds/.local/share/multimc/libraries/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar%2356!/data/.mcassetsroot' uses unexpected schema
+[23Dec2022 17:28:01.482] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Dec2022 17:28:02.209] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: sillybodaddy
+[23Dec2022 17:28:02.343] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[23Dec2022 17:28:03.988] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.84, for MC 1.18.2 with MCP 20220404.173914
+[23Dec2022 17:28:04.007] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.84 Initialized
+[23Dec2022 17:28:06.373] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
+[23Dec2022 17:28:06.623] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[23Dec2022 17:28:06.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Dec2022 17:28:07.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.84 Target: 40.1.92
+[23Dec2022 17:28:07.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[23Dec2022 17:28:07.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.18.2-0.11.0-Beta5 Target: null
+[23Dec2022 17:28:11.130] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device C-Media(R) Audio Analog Stereo
+[23Dec2022 17:28:11.130] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[23Dec2022 17:28:11.231] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[23Dec2022 17:28:11.237] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[23Dec2022 17:28:11.238] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23Dec2022 17:28:11.238] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23Dec2022 17:28:11.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23Dec2022 17:28:11.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23Dec2022 17:28:11.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23Dec2022 17:28:11.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[23Dec2022 17:28:11.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23Dec2022 17:28:11.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23Dec2022 17:28:20.662] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:20.662] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:20.664] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23Dec2022 17:28:20.664] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23Dec2022 17:28:20.665] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:21.063] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Dec2022 17:28:21.440] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[23Dec2022 17:28:22.942] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:22.943] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:22.943] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23Dec2022 17:28:22.944] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23Dec2022 17:28:22.944] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23Dec2022 17:28:23.308] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Dec2022 17:28:23.591] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[23Dec2022 17:28:23.917] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Dec2022 17:28:23.932] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[23Dec2022 17:28:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Dec2022 17:28:23.998] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/danisimmonds/.local/share/multimc/instances/1.18.2 testing/.minecraft/saves/New World/serverconfig/dynamictrees-server.toml is not correct. Correcting
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.leavesSeedDropRate was corrected from null to its default, 1.0. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.voluntarySeedDropRate was corrected from null to its default, 0.01. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedPlantRate was corrected from null to its default, 0.1666666716337204. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.timeToLive was corrected from null to its default, 1200. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedOnlyForest was corrected from null to its default, true. 
+[23Dec2022 17:28:23.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedMinForestness was corrected from null to its default, 0.0. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.growthMultiplier was corrected from null to its default, 0.5. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.harvestMultiplier was corrected from null to its default, 1.0. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.maxTreeHardness was corrected from null to its default, 20.0. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.growthFolding was corrected from null to its default, 2. 
+[23Dec2022 17:28:24.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.dropSticks was corrected from null to its default, true. 
+[23Dec2022 17:28:24.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.scaleBiomeGrowthRate was corrected from null to its default, 0.5. 
+[23Dec2022 17:28:24.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.diseaseChance was corrected from null to its default, 0.0. 
+[23Dec2022 17:28:24.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.maxBranchRotRadius was corrected from null to its default, 7. 
+[23Dec2022 17:28:24.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.rootyBlockHardnessMultiplier was corrected from null to its default, 40.0. 
+[23Dec2022 17:28:24.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.swampOaksInWater was corrected from null to its default, ROOTED. 
+[23Dec2022 17:28:24.006] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.boneMealGrowthPulses was corrected from null to its default, 1. 
+[23Dec2022 17:28:24.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:24.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.isLeavesPassable was corrected from null to its default, false. 
+[23Dec2022 17:28:24.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.vanillaLeavesCollision was corrected from null to its default, false. 
+[23Dec2022 17:28:24.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableBranchClimbling was corrected from null to its default, true. 
+[23Dec2022 17:28:24.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canopyCrash was corrected from null to its default, true. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.axeDamageMode was corrected from null to its default, THICKNESS. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableFallingTrees was corrected from null to its default, true. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableFallingTreeDamage was corrected from null to its default, true. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.fallingTreeDamageMultiplier was corrected from null to its default, 1.0. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.dirtBucketPlacesDirt was corrected from null to its default, true. 
+[23Dec2022 17:28:24.008] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.sloppyBreakDrops was corrected from null to its default, false. 
+[23Dec2022 17:28:24.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.minRadiusForStrip was corrected from null to its default, 6. 
+[23Dec2022 17:28:24.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableStripRadiusReduction was corrected from null to its default, true. 
+[23Dec2022 17:28:24.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canBoneMealFruit was corrected from null to its default, false. 
+[23Dec2022 17:28:24.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canBoneMealPods was corrected from null to its default, true. 
+[23Dec2022 17:28:24.009] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.dynamicSaplingDrops was corrected from null to its default, true. 
+[23Dec2022 17:28:24.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:24.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.podzolGen was corrected from null to its default, true. 
+[23Dec2022 17:28:24.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:24.012] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.debug was corrected from null to its default, false. 
+[23Dec2022 17:28:24.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/danisimmonds/.local/share/multimc/instances/1.18.2 testing/.minecraft/saves/New World/serverconfig/forge-server.toml is not correct. Correcting
+[23Dec2022 17:28:24.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2022 17:28:24.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[23Dec2022 17:28:24.016] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[23Dec2022 17:28:24.017] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[23Dec2022 17:28:24.017] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[23Dec2022 17:28:35.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Dec2022 17:28:35.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2022 17:28:36.059] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2022 17:28:36.571] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2022 17:28:37.075] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2022 17:28:37.568] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[23Dec2022 17:28:38.077] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[23Dec2022 17:28:38.558] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[23Dec2022 17:28:39.078] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[23Dec2022 17:28:39.566] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[23Dec2022 17:28:40.599] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[23Dec2022 17:28:40.600] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[23Dec2022 17:28:41.089] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[23Dec2022 17:28:41.574] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[23Dec2022 17:28:42.074] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[23Dec2022 17:28:42.573] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[23Dec2022 17:28:43.068] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[23Dec2022 17:28:43.566] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[23Dec2022 17:28:44.172] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[23Dec2022 17:28:44.575] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[23Dec2022 17:28:45.066] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[23Dec2022 17:28:45.563] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[23Dec2022 17:28:46.059] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[23Dec2022 17:28:46.624] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[23Dec2022 17:28:47.073] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[23Dec2022 17:28:47.575] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[23Dec2022 17:28:48.073] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[23Dec2022 17:28:48.578] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[23Dec2022 17:28:49.072] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[23Dec2022 17:28:49.560] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[23Dec2022 17:28:50.087] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[23Dec2022 17:28:50.601] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[23Dec2022 17:28:51.064] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[23Dec2022 17:28:51.575] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[23Dec2022 17:28:52.069] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[23Dec2022 17:28:52.560] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[23Dec2022 17:28:53.071] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[23Dec2022 17:28:53.559] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[23Dec2022 17:28:54.082] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[23Dec2022 17:28:55.257] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[23Dec2022 17:28:55.257] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[23Dec2022 17:28:55.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[23Dec2022 17:28:56.129] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[23Dec2022 17:28:56.566] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[23Dec2022 17:28:57.070] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[23Dec2022 17:28:57.575] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[23Dec2022 17:28:58.069] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[23Dec2022 17:28:58.579] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[23Dec2022 17:28:59.061] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[23Dec2022 17:28:59.560] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[23Dec2022 17:29:00.079] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[23Dec2022 17:29:00.565] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[23Dec2022 17:29:01.096] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[23Dec2022 17:29:01.564] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[23Dec2022 17:29:02.073] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[23Dec2022 17:29:02.577] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[23Dec2022 17:29:03.062] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[23Dec2022 17:29:03.558] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[23Dec2022 17:29:04.075] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[23Dec2022 17:29:04.570] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[23Dec2022 17:29:05.060] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[23Dec2022 17:29:05.566] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[23Dec2022 17:29:05.928] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Dec2022 17:29:05.933] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30377 ms
+[23Dec2022 17:29:05.979] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[23Dec2022 17:29:05.980] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[23Dec2022 17:29:06.071] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[23Dec2022 17:29:06.641] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[23Dec2022 17:29:06.654] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3b86ab92
+[23Dec2022 17:29:06.660] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sillybodaddy[local:E:ffc85770] logged in with entity id 238 at (52.5, 69.0, 38.5)
+[23Dec2022 17:29:06.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sillybodaddy joined the game
+[23Dec2022 17:29:06.909] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[23Dec2022 17:29:08.828] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[23Dec2022 17:29:08.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23Dec2022 17:29:08.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23Dec2022 17:29:08.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23Dec2022 17:29:27.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Saved screenshot as 2022-12-23_17.29.27.png
+[23Dec2022 17:29:51.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest tectonic:autumn_forest is at [-532, ~, 192] (592 blocks away)
+[23Dec2022 17:30:06.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sillybodaddy: Teleported sillybodaddy to -531.500000, 125.000000, 192.500000]
+[23Dec2022 17:30:06.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4268ms or 85 ticks behind
+[23Dec2022 17:30:06.404] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported sillybodaddy to -531.500000, 125.000000, 192.500000
+[23Dec2022 17:30:37.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Saved screenshot as 2022-12-23_17.30.37.png
+[23Dec2022 17:30:48.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2631ms or 52 ticks behind
+[23Dec2022 17:30:48.812] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Could not find a biome of type "tectonic:island" within reasonable distance
+[23Dec2022 17:31:08.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest tectonic:alpine_meadow is at [412, ~, 956] (1228 blocks away)
+[23Dec2022 17:31:20.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sillybodaddy: Teleported sillybodaddy to 412.500000, 125.000000, 956.500000]
+[23Dec2022 17:31:20.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4277ms or 85 ticks behind
+[23Dec2022 17:31:20.661] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported sillybodaddy to 412.500000, 125.000000, 956.500000
+[23Dec2022 17:32:09.015] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest minecraft:desert is at [-3824, ~, -4072] (6656 blocks away)
+[23Dec2022 17:32:24.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [sillybodaddy: Teleported sillybodaddy to -3823.500000, 125.000000, -4071.500000]
+[23Dec2022 17:32:24.020] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5091ms or 101 ticks behind
+[23Dec2022 17:32:24.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported sillybodaddy to -3823.500000, 125.000000, -4071.500000
+[23Dec2022 17:33:14.196] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Saved screenshot as 2022-12-23_17.33.14.png
+[23Dec2022 17:33:19.078] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[23Dec2022 17:33:19.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23Dec2022 17:33:19.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23Dec2022 17:33:19.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23Dec2022 17:33:20.703] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sillybodaddy lost connection: Disconnected
+[23Dec2022 17:33:20.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sillybodaddy left the game
+[23Dec2022 17:33:20.705] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[23Dec2022 17:33:20.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Dec2022 17:33:20.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Dec2022 17:33:20.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Dec2022 17:33:22.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23Dec2022 17:33:22.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23Dec2022 17:33:22.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23Dec2022 17:33:22.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[23Dec2022 17:33:22.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Dec2022 17:33:22.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Dec2022 17:33:22.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Dec2022 17:33:23.999] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
