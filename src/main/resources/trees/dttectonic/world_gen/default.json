@@ -12,7 +12,7 @@
 		"select": { "name": "tectonic:.*" },
 		"only_if_loaded": "dynamictreesplus",
 		"cancellers": {
-			"type": "dynamictreesplus:cactus",
+			"types": [  "tree", "dynamictreesplus:cactus"],
 			"namespaces": [ "minecraft", "tectonic" ]
 		}
 	},
@@ -106,18 +106,54 @@
 		}
 	},
 	{
+		"_comment": "dead trees",
+		"select": { "name": "tectonic:red_desert" },
+		"apply": {
+			"species" : "dttectonic:dead",
+			"density": 0,
+			"chance": 0.1
+		}
+	},
+	{
+		"_comment": "dead trees",
+		"select": { "name": "tectonic:red_desert_dunes" },
+		"apply": {
+			"species" : "dttectonic:dead",
+			"density": 0,
+			"chance": 0.1
+		}
+	},
+	{
+		"_comment": "dead trees",
+		"select": { "name": "tectonic:desert_dunes" },
+		"apply": {
+			"species" : "dttectonic:dead",
+			"density": 0,
+			"chance": 0.3
+		}
+	},
+	{
+		"_comment": "dead trees",
+		"select": { "name": "minecraft:desert" },
+		"apply": {
+			"species": {
+				"method": "splice_before",
+				"random": {
+					"...": 1,
+					"dttectonic:dead": 1
+				}
+			},
+			"density": 0,
+			"chance": 0.3
+		}
+	},
+	{
 		"_comment": "Adds saguaro cacti to all Badlands biomes if DT+ is loaded.",
 		"select": { "name": "tectonic:badlands_spires" },
 		"only_if_loaded": "dynamictreesplus",
 		"apply": {
-			"species" : {
-				"method": "splice_before",
-				"random": {
-					"...": 3,
-					"dynamictreesplus:saguaro_cactus": 1
-				}
-			},
-			"density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
+			"species" : "dynamictreesplus:saguaro_cactus",
+			"density" : 0,
 			"chance": 0.3
 		}
 	},
@@ -129,12 +165,10 @@
 			"species" : {
 				"method": "splice_before",
 				"random": {
-					"...": 3,
-					"dynamictreesplus:saguaro_cactus": 1
+					"...": 1,
+					"dynamictreesplus:saguaro_cactus": 15
 				}
-			},
-			"density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
-			"chance": 0.3
+			}
 		}
 	},
 	{
@@ -145,12 +179,10 @@
 			"species" : {
 				"method": "splice_before",
 				"random": {
-					"...": 3,
-					"dynamictreesplus:saguaro_cactus": 1
+					"...": 1,
+					"dynamictreesplus:saguaro_cactus": 15
 				}
-			},
-			"density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
-			"chance": 0.1
+			}
 		}
 	},
 	{
@@ -161,13 +193,11 @@
 			"species" : {
 				"method": "splice_before",
 				"random": {
-					"...": 15,
-					"dynamictreesplus:pillar_cactus" : 6,
-					"dynamictreesplus:pipe_cactus" : 1
+					"...": 1,
+					"dynamictreesplus:pillar_cactus" : 12,
+					"dynamictreesplus:pipe_cactus" : 2
 				}
-			},
-			"density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
-			"chance": 0.1
+			}
 		}
 	},
 	{
@@ -178,13 +208,26 @@
 			"species" : {
 				"method": "splice_before",
 				"random": {
-					"...": 15,
+					"...": 1,
+					"dynamictreesplus:pillar_cactus" : 12,
+					"dynamictreesplus:pipe_cactus" : 2
+				}
+			}
+		}
+	},
+	{
+		"_comment": "Adds regular cacti to the tectonic sandy biomes if DT+ is loaded.",
+		"select": { "name": "minecraft:desert" },
+		"only_if_loaded": "dynamictreesplus",
+		"apply": {
+			"species" : {
+				"method": "splice_before",
+				"random": {
+					"...": 1,
 					"dynamictreesplus:pillar_cactus" : 6,
 					"dynamictreesplus:pipe_cactus" : 1
 				}
-			},
-			"density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
-			"chance": 0.1
+			}
 		}
 	}
 ]

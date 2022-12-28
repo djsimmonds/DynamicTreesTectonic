@@ -74,7 +74,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "tectonic:desert/trees/trees_desert",
+      "minecraft:trees_badlands",
       "tectonic:common/seagrass_land",
       "tectonic:common/grass/patch_grass_very_sparse",
       "minecraft:patch_dead_bush_2",

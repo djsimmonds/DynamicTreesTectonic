@@ -32,7 +32,8 @@ public class DynamicTreesTectonic
         RegisterTectonicBiomes.REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
         
         RegistryHandler.setup(MOD_ID);
-      }
+
+    }
 }
 //    private void setup(final FMLCommonSetupEvent event)
 //    {
