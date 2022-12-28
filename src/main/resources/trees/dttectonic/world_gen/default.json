@@ -17,6 +17,23 @@
 		}
 	},
 	{
+		"__comment" : "Try to fix wooded badlands not cancelling vanilla trees",
+		"select": { "name": "minecraft:wooded_badlands" },
+		"cancellers": {
+			"type": "tree",
+			"namespaces": [ "minecraft", "tectonic" ]
+		}
+	},
+	{
+		"__comment" : "Wooded Mesas have a chance of generating oak on the dirt patches.",
+		"select": { "name": "minecraft:wooded_badlands" },
+		"apply": {
+		  "species" : "oak",
+		  "density": [ 0.5 ],
+		  "chance": 0.5
+		}
+    },
+	{
 		"select": { "name": "tectonic:alpine_meadow" },
 		"apply": {
 			"species" : "spruce",
