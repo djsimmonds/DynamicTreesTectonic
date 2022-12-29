@@ -25,6 +25,14 @@
 		}
 	},
 	{
+		"__comment" : "Also remove trees from minecraft desert (to help with immersive weathering worldgen)",
+		"select": { "name": "minecraft:desert" },
+		"cancellers": {
+			"type": "tree",
+			"namespaces": [ "minecraft", "tectonic" ]
+		}
+	},
+	{
 		"__comment" : "Wooded Mesas have a chance of generating oak on the dirt patches.",
 		"select": { "name": "minecraft:wooded_badlands" },
 		"apply": {
