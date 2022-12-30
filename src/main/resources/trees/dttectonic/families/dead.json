@@ -1,7 +1,7 @@
 {
-  "common_leaves": "dttectonic:dead",
+  "common_leaves": "minecraft:oak_leaves",
   "common_species": "dttectonic:dead",
   "primitive_log": "minecraft:stripped_oak_log",
-  "primitive_stripped_log": "minecraft:stripped_oak_log",
+  "generate_stripped_branch": false,
   "max_branch_radius": 8
 }
