@@ -1,11 +1,13 @@
 package com.djs.dttectonic;
 
+import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(DynamicTreesTectonic.MOD_ID)
@@ -17,7 +19,7 @@ public class DynamicTreesTectonic
     
     public DynamicTreesTectonic()
     {
-//        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 //        IEventBus bus = MinecraftForge.EVENT_BUS;
         // Register the setup method for modloading
 //        modEventBus.addListener(this::setup);
@@ -25,15 +27,21 @@ public class DynamicTreesTectonic
 //        modEventBus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
 //        modEventBus.addListener(this::processIMC);
-
+		
         // Register ourselves for server and other game events we are interested in
-//        MinecraftForge.EVENT_BUS.register(modEventBus);
-        
-        RegisterTectonicBiomes.REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
-        
+		modEventBus.addListener(this::gatherData);
+        MinecraftForge.EVENT_BUS.register(this);
+                
         RegistryHandler.setup(MOD_ID);
 
+        RegisterTectonicBiomes.REGISTER.register(modEventBus);
     }
+    
+    private void gatherData(final GatherDataEvent event) {
+        GatherDataHelper.gatherTagData(MOD_ID, event);
+        GatherDataHelper.gatherLootData(MOD_ID, event);
+    }
+
 }
 //    private void setup(final FMLCommonSetupEvent event)
 //    {
