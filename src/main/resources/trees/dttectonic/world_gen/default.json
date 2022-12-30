@@ -25,10 +25,19 @@
 		}
 	},
 	{
-		"__comment" : "Also remove trees from minecraft desert (to help with immersive weathering worldgen)",
+		"__comment" : "Also remove trees from minecraft desert (to help with dirt_like blocks in desert)",
 		"select": { "name": "minecraft:desert" },
 		"cancellers": {
 			"type": "tree",
+			"namespaces": [ "minecraft", "tectonic" ]
+		}
+	},
+	{
+		"_comment": "Cancel any cacti from minecraft desert",
+		"select": { "name": "minecraft:desert" },
+		"only_if_loaded": "dynamictreesplus",
+		"cancellers": {
+			"types": [  "tree", "dynamictreesplus:cactus"],
 			"namespaces": [ "minecraft", "tectonic" ]
 		}
 	},
